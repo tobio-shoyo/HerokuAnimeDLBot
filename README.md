@@ -5,7 +5,7 @@ An advanced telegram bot to get anime download links.
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/disneyteam77/HerokuAnimeDLBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tobio-shoyo/HerokuAnimeDLBot)
 
 ## Heroku Vars:
 

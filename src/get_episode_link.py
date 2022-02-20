@@ -22,7 +22,7 @@ def get_ep_link(client, callback_query):
     str_qry = ""
     str_qry_final = str_qry.join(data_spl_ep)
     # print(str_qry_final)
-    animelink = f'https://gogoanime.ai/category/{str_qry_final}'
+    animelink = f'https://gogoanime.fi/category/{str_qry_final}'
     response = requests.get(animelink)
     plainText = response.text
     soup = BeautifulSoup(plainText, "lxml")
@@ -37,7 +37,7 @@ def get_ep_link(client, callback_query):
     episode = ep_num_link_get
     # print("Generating Links from", start, "to", end)
     animename = animelink.split("/")
-    URL_PATTERN = 'https://gogoanime.ai/{}-episode-{}'
+    URL_PATTERN = 'https://gogoanime.fi/{}-episode-{}'
     url = URL_PATTERN.format(str_qry_final, ep_num_link_get)
     srcCode = requests.get(url)
     plainText = srcCode.text
